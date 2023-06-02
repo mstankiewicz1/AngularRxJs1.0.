@@ -1,0 +1,12 @@
+<p>rxjs-learning works!</p>
+<div *ngIf="agentName">
+    {{ agentName }}
+</div>
+
+<div *ngIf="orderName">
+    {{ orderName }}
+</div>
+
+<button #validate (click)="rxjsObservableEvent()">Click for Observable</button>
+
+<a href="http://localhost:4200/test-url" #getLink (mouseover)="getEventObservable()">Root Link</a>
