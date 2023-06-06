@@ -78,7 +78,7 @@ export class RxjsLearningComponent {
 
     seqNum.subscribe(num => {
       if(num < 5) {
-        console.log(data + num);
+        // console.log(data + num);
       }
     });
 
